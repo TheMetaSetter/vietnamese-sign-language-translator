@@ -1,0 +1,29 @@
+name: aio_signlanguage-env
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - pytorch
+  - torchvision
+  - torchaudio
+  - opencv
+  - scrapy
+  - requests
+  - beautifulsoup4
+  - selenium
+  - requests-html
+  - mlflow
+  - pip:
+      - tqdm
+      - transformers
+      - jupyterlab
+      - wandb # For experiment tracking (optional)
+      - lxml_html_clean
